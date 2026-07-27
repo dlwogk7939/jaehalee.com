@@ -1,0 +1,8 @@
+# Private source exports used to prepare portfolio content.
+assets/LinkedIn_Data/
+
+# Local validation artifacts.
+.codex-temp/
+.edge-validation-profile/
+.validation-dom.txt
+validation-*.png

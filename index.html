@@ -1,298 +1,197 @@
-<!DOCTYPE html>
-<html lang="en-US">
-
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width">
-
-  <meta name="author" content="Jaeha Lee">
-  <meta name="description" content="Jaeha Lee's personal website">
-  <title>Jaeha Lee | Developer's Website</title>
-
-  <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-
-  <!-- font awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- CSS -->
-  <link href="style.css" rel="stylesheet" type="text/css">
-
-
-</head>
-
-<body>
-  <header>
-    <nav>
-      <div class="circle" onclick="scrollToSection('intro')"><a class="logo">JL</a></div>
-      <ul>
-        <li><a href="#intro" onclick="scrollToSection('intro')">Home</a></li>
-        <li><a href="#about_me" onclick="scrollToSection('about_me')">About Me</a></li>
-        <li><a href="#skills" onclick="scrollToSection('skills')">Skills</a></li>
-        <li><a href="#education" onclick="scrollToSection('education')">Education</a></li>
-        <li><a href="#experience" onclick="scrollToSection('experience')">Experience</a></li>
-        <li><a href="games">Games</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="intro" id="intro">
-      <div class="headline">
-        <h1>
-          Jaeha Lee,<br>
-          A Software Developer.
-        </h1>
-        <p>
-          Student at The Ohio State University from Korea.<br>
-          Passionate about technology and constantly strive to expand knowledge and skills.
-        </p>
-      </div>
-      <img src="assets/profile.jpg" alt="Profile picture">
-    </section>
-
-    <section class="about_me" id="about_me">
-      <div class="heading">
-        <h2>
-          About me
-        </h2>
-      </div>
-
-      <div class="contents">
-        <div class="school">
-          <div class="container">
-            <img src="assets/Ohio_State_University_seal.svg" alt="OSU logo">
-          </div>
-          <span>
-            Class of 2026<br>
-            Computer Science<br>and Engineering
-          </span>
-        </div>
-
-        <div class="location">
-          <div class="container">
-            <img src="assets/flag_South_Korea.svg" alt="Flag of South Korea">
-          </div>
-          <span>
-            Living in<br>
-            Columbus Ohio<br>
-            Seoul, Korea
-          </span>
-        </div>
-
-        <div class="music">
-          <div class="container">
-            <a href="https://www.youtube.com/playlist?list=PLxw98VrwjH-Z3HKonPTUV-b3GPFkxYdLW" target="_blank">
-              <img src="assets/Youtube_Music_icon.svg" alt="Youtube Music icon">
-            </a>
-          </div>
-          <span>
-            <br>
-            Taste in Music
-          </span>
-        </div>
-
-        <div class="birthday">
-          <div class="container">
-            <img src="assets/june-30-icon.svg" alt="Youtube Music icon">
-          </div>
-          <span>
-            Birthday<br>
-            June 30th, 2003
-          </span>
-        </div>
-      </div>
-    </section>
-
-    <section class="skills" id="skills">
-      <div class="heading">
-        <h2>
-          Skills
-        </h2>
-      </div>
-
-      <div class="contents">
-        <div>
-          <img src="assets/java.svg" alt="Java">
-          <span>Java</span>
-        </div>
-        <div>
-          <img src="assets/python.svg" alt="Python">
-          <span>Python</span>
-        </div>
-        <div>
-          <img src="assets/c.svg" alt="C">
-          <span>C</span>
-        </div>
-        <div>
-          <img src="assets/html.svg" alt="HTML">
-          <span>HTML</span>
-        </div>
-        <div>
-          <img src="assets/css.svg" alt="CSS">
-          <span>CSS</span>
-        </div>
-        <div>
-          <img src="assets/javascript.svg" alt="Javascript">
-          <span>Javascript</span>
-        </div>
-        <div>
-          <img src="assets/GitHub_mark_white.png" alt="GitHub">
-          <span>GitHub</span>
-        </div>
-        <div>
-          <img src="assets/VSCode_logo.svg" alt="Visual Studio Code">
-          <span>VSCode</span>
-        </div>
-        <div>
-          <img src="assets/Cloudflare_Logo.png" alt="Cloudflare">
-          <span>Cloudflare</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="education" id="education">
-      <div class="heading">
-        <h2>
-          Education
-        </h2>
-      </div>
-
-      <div class="contents">
-        <div class="school">
-          <div class="container">
-            <img src="assets/The_Ohio_State_University_Logo.jpg" alt="OSU">
-          </div>
-          <div class="explanation">
-            <p class="degree">
-              Bachelor of Science<br>
-              Computer Science and Engineering
-            </p>
-            <p class="additional_explanation">
-              Class of 2026<br>
-              GPA: 3.425/4.0<br>
-              Dean's List - Spring 2023<br>
-              AI Club Challenge - 2nd Place
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="experience" id="experience">
-
-      <div class="heading">
-        <h2>
-          Experience
-        </h2>
-      </div>
-
-      <div class="contents">
-        <div class="job">
-          <div class="container">
-            <img src="assets/army.png" class="army" alt="OSU">
-          </div>
-          <div class="description army">
-            <h3 class="title">Sergeant</h3>
-            <span class="workplace">Republic of Korea Army / Sep 2023 ~ Mar 2025</span>
-            <ul>
-              <li>Disciplined and trained as a Military Engineer at the front line.</li>
-              <li>Learned and executed responsibilities as a Duty Officer and Squad Leader.</li>
-              <li>Trained in firing weapons and handling mines.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="job">
-          <div class="container">
-            <img src="assets/Ohio_State_logo.png" class="osu" alt="OSU">
-          </div>
-          <div class="description">
-            <div>
-              <h3 class="title">Classroom and DU Support Student Tech</h3>
-              <span class="workplace">The Ohio State University / Jan 2023 ~ Apr 2023<br></span>
-              <ul>
-                <li>Provided technical support in classroom and digital settings.</li>
-                <li>Assisted in troubleshooting and resolving technical issues.</li>
-                <li>Contributed to the implementation of technology and digital solutions.</li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 class="title">Cashier</h3>
-              <span class="workplace">The Ohio State University / Oct 2022 ~ Dec 2022</span>
-              <ul>
-                <li>Handled cash transactions and provided excellent customer service.</li>
-                <li>Operated the cash register and processed payments accurately.</li>
-                <li>Assisted in restocking and maintaining a clean checkout area.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-
-
-      </div>
-    </section>
-
-  </main>
-
-  <footer>
-    <div>
-      <a href="https://www.linkedin.com/in/jaehalee7939/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://www.instagram.com/jaeha_7939/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://github.com/dlwogk7939" target="_blank"><i class="fa-brands fa-github"></i></a>
-      <a href="https://leetcode.com/u/dlwogk7939/" target="_blank"><img src="assets/leetcode-svgrepo-com.svg"></img></a>
-<!--       <a href="https://docs.google.com/document/d/1bw7EaW2boEXv89vO4m7vZ2c8mVB5kPMQxHvLJe80NpQ/edit" target="_blank"><i
-          class="fa-regular fa-file"></i></a> -->
-      <a href="https://docs.google.com/document/d/1ESmoBUoiv_be0O-XOdwADGrlmkcASy0ssqI1rUC2ndU/edit?usp=sharing" target="_blank"><i
-          class="fa-regular fa-file"></i></a>
-      <a href="mailto:dlwogk121@gmail.com"><i class="fa-regular fa-envelope"></i></a>
-    </div>
-    <p>&copy; 2024 Jaeha Lee. All rights reserved.</p>
-  </footer>
-
-  <script>
-    function scrollToSection(sectionId) {
-      const section = document.getElementById(sectionId);
-      if (section) {
-        section.scrollIntoView({ behavior: 'smooth' });
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jaeha Lee" />
+    <meta
+      name="description"
+      content="Jaeha Lee is a software engineer building backend, cloud, data, and full-stack systems. Explore enterprise Oracle work, award-winning AI projects, and teaching experience."
+    />
+    <meta name="theme-color" content="#f5f5f2" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0c0d0f" media="(prefers-color-scheme: dark)" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jaehalee.com/" />
+    <meta property="og:title" content="Jaeha Lee — Software Engineer" />
+    <meta
+      property="og:description"
+      content="Backend, cloud, data, and full-stack engineering—from Oracle archival systems to award-winning AI products."
+    />
+    <meta property="og:image" content="https://jaehalee.com/assets/profile.jpg" />
+    <meta property="og:image:alt" content="Portrait of Jaeha Lee" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://jaehalee.com/" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/profile.jpg" as="image" fetchpriority="high" />
+    <title>Jaeha Lee — Software Engineer</title>
+    <script>
+      (() => {
+        const saved = localStorage.getItem("theme");
+        const theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jaeha Lee",
+        "url": "https://jaehalee.com/",
+        "jobTitle": "Software Engineer",
+        "address": { "@type": "PostalAddress", "addressLocality": "Columbus", "addressRegion": "OH" },
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "The Ohio State University" },
+        "sameAs": [
+          "https://www.linkedin.com/in/jaehalee7939/",
+          "https://github.com/dlwogk7939"
+        ]
       }
-    }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    document.addEventListener('scroll', function () {
-      const sections = document.querySelectorAll('section');
-      const navLinks = document.querySelectorAll('nav ul li a');
+    <header class="site-header" id="top">
+      <nav class="nav shell" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Jaeha Lee, home">JL<span>.</span></a>
+        <button class="menu-toggle icon-button" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Open menu</span>
+          <span aria-hidden="true"></span><span aria-hidden="true"></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#research">Research & teaching</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-resume" href="assets/documents/Jaeha-Lee-Resume.pdf" target="_blank">Resume</a>
+        </div>
+        <button class="theme-toggle icon-button" type="button" aria-label="Switch to dark theme">
+          <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.4A8.5 8.5 0 0 1 8.6 3.8a8.5 8.5 0 1 0 11.6 11.6Z"/></svg>
+        </button>
+      </nav>
+    </header>
 
-      let currentSectionId = '';
+    <main id="main">
+      <section class="hero section" id="home">
+        <div class="hero-grid shell">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Software engineer · Columbus, Ohio</p>
+            <h1>Engineering systems that turn complex data into useful products.</h1>
+            <p class="hero-intro">
+              I build reliable backend, data, and full-stack systems—from Oracle cloud archival pipelines to award-winning AI products.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">View selected work <span aria-hidden="true">↘</span></a>
+              <a class="button secondary" href="assets/documents/Jaeha-Lee-Resume.pdf" download="Jaeha-Lee-Resume.pdf">Download résumé</a>
+            </div>
+            <div class="hero-links" aria-label="Contact links">
+              <a href="mailto:jaehalee7939@gmail.com">Email</a>
+              <a href="https://www.linkedin.com/in/jaehalee7939/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+              <a href="https://github.com/dlwogk7939" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+          </div>
+          <figure class="portrait-wrap reveal">
+            <div class="portrait-frame">
+              <img src="assets/profile.jpg" alt="Jaeha Lee" width="600" height="800" fetchpriority="high" />
+            </div>
+            <figcaption><span class="status-dot" aria-hidden="true"></span> Open to software engineering opportunities</figcaption>
+          </figure>
+        </div>
+        <div class="metrics shell" id="metrics" aria-label="Professional highlights"></div>
+      </section>
 
-      sections.forEach(section => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        const sectionBottom = sectionTop + sectionHeight;
+      <section class="section about" id="about">
+        <div class="shell split-heading reveal">
+          <p class="section-kicker">01 · About</p>
+          <div>
+            <h2>From enterprise systems to rapid product builds.</h2>
+            <p class="lede" id="about-copy"></p>
+          </div>
+        </div>
+      </section>
 
-        if (pageYOffset >= sectionTop - 150 && pageYOffset < sectionBottom - 150) {
-          currentSectionId = section.getAttribute('id');
-        }
-      });
+      <section class="section section-contrast" id="experience">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div><p class="section-kicker">02 · Experience</p><h2>Work with measurable outcomes.</h2></div>
+            <p>Backend engineering, enterprise cloud architecture, data systems, and operational leadership.</p>
+          </div>
+          <div class="experience-list" id="experience-list"></div>
+        </div>
+      </section>
 
-      navLinks.forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href').includes(currentSectionId)) {
-          link.classList.add('active');
-        }
-      });
-    });
+      <section class="section" id="projects">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div><p class="section-kicker">03 · Selected work</p><h2>Products built under real constraints.</h2></div>
+            <p>Selected for technical depth, end-to-end ownership, and demonstrated outcomes.</p>
+          </div>
+          <div class="project-grid" id="project-grid"></div>
+        </div>
+      </section>
 
-  </script>
+      <section class="section section-contrast" id="research">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div><p class="section-kicker">04 · Research & teaching</p><h2>Learning deeply. Explaining clearly.</h2></div>
+            <p>Applied machine learning research and technical mentorship across full-stack systems and algorithms.</p>
+          </div>
+          <div class="research-grid" id="research-grid"></div>
+        </div>
+      </section>
 
-</body>
+      <section class="section" id="skills">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div><p class="section-kicker">05 · Technical toolkit</p><h2>Tools chosen for the problem.</h2></div>
+            <p>Verified across professional work, projects, coursework, and research.</p>
+          </div>
+          <div class="skill-grid" id="skill-grid"></div>
+        </div>
+      </section>
 
+      <section class="section section-contrast" id="education">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div><p class="section-kicker">06 · Education & recognition</p><h2>A strong technical foundation.</h2></div>
+          </div>
+          <div class="education-grid">
+            <article class="education-card reveal" id="education-card"></article>
+            <div class="award-list" id="award-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="shell contact-inner reveal">
+          <p class="section-kicker">07 · Contact</p>
+          <h2>Let’s build something useful.</h2>
+          <p>I’m open to software engineering, backend, full-stack, database, and related technical opportunities.</p>
+          <a class="contact-email" href="mailto:jaehalee7939@gmail.com">jaehalee7939@gmail.com <span aria-hidden="true">↗</span></a>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:jaehalee7939@gmail.com">Start a conversation</a>
+            <a class="button secondary" href="assets/documents/Jaeha-Lee-Resume.pdf" target="_blank">View résumé</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="shell footer-inner">
+        <p>© <span id="year"></span> Jaeha Lee</p>
+        <div><a href="#top">Back to top ↑</a><a href="https://github.com/dlwogk7939" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/jaehalee7939/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
+      </div>
+    </footer>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close icon-button" type="button" aria-label="Close project details">×</button>
+      <div id="dialog-content"></div>
+    </dialog>
+
+    <script src="content.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
